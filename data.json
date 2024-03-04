@@ -1,0 +1,288 @@
+{
+    "charcters": [
+    {
+    "name": "Gavin",
+    "ability": "Shiver",
+    "abildesc":"Powers up the users attack in the snow.",
+    "stats": {
+        "speed": 50,
+        "luck": 50,
+        "attack": 700,
+        "special_attack": 50,
+        "defence": 50,
+        "special_defence": 50,
+        "hp": 50
+    },
+    "moves":{
+        "move1":{
+            "name":"Snow day",
+            "physical": 0,
+            "special": 0,
+            "effect":{
+                "snow": "true"
+            }
+        },
+        "move2":{
+            "name":"Smash",
+            "physical": 100,
+            "special": 0,
+            "effect": "none"
+        },
+        "move3":{
+            "name":"Bike",
+            "physical": 0,
+            "special": 0,
+            "effect":{
+                "spe": 2
+            }
+        }
+    },
+    "description": "Gavin is a true force of nature. With his overwhelming power he can easily destroy trees and other obstacles in his path. Gavin gets stronger in the snow, hearing the roaring drums of each snowflake.",
+    "picture": ""
+    },
+    {
+        "name": "Max",
+        "ability": "Point guard",
+        "abildesc":"The user is unable to be critical hit.",
+        "stats": {
+            "speed": 170,
+            "luck": 175,
+            "attack": 50,
+            "special_attack": 230,
+            "defence": 125,
+            "special_defence": 125,
+            "hp": 125
+        },
+        "moves":{
+            "move1":{
+                "name":"Hand Offense",
+                "physical": 0,
+                "special": 70,
+                "effect": "none"
+            },
+            "move2":{
+                "name":"Cook",
+                "physical": 0,
+                "special": 0,
+                "effect": {
+                    "spdef": 2
+                }
+            },
+            "move3":{
+                "name":"Darts",
+                "physical": 0,
+                "special": 40,
+                "effect":{
+                    "hits": 2
+                }
+            }
+        },
+        "description": "Max is the true interpretation of the supernatural. Some say when he throws up his hands in protest tornados are created from the sheer force of the movement.",
+        "picture": ""
+        },
+        {
+            "name": "Tate",
+            "ability": "LAYD",
+            "abildesc":"Heals user some when intaking physical damage.",
+            "stats": {
+                "speed": 142,
+                "luck": 148,
+                "attack": 142,
+                "special_attack": 142,
+                "defence": 142,
+                "special_defence": 142,
+                "hp": 142
+            },
+            "moves":{
+                "move1":{
+                    "name":"Creation",
+                    "physical": 0,
+                    "special": 0,
+                    "effect": {
+                        "spdef": 1,
+                        "def": 1
+                    }
+                },
+                "move2":{
+                    "name":"Break Neck",
+                    "physical": 80,
+                    "special": 0,
+                    "effect": "none"
+                },
+                "move3":{
+                    "name":"Dissent",
+                    "physical": 0,
+                    "special": 80,
+                    "effect":"none"
+                }
+            },
+            "description": "Tate remains as equal as possible. He wants to do something while also wants to nothing at the same time.",
+            "picture": ""
+            },
+            {
+                "name": "Eric",
+                "ability": "Speed Run",
+                "abildesc":"The user's attack is increased at the cost of their accuracy decreasing.",
+                "stats": {
+                    "speed": 300,
+                    "luck": 50,
+                    "attack": 150,
+                    "special_attack": 50,
+                    "defence": 245,
+                    "special_defence": 55,
+                    "hp": 150
+                },
+                "moves":{
+                    "move1":{
+                        "name":"Protein Punch",
+                        "physical": 55,
+                        "special": 0,
+                        "effect": {
+                            "atk": 1
+                        }
+                    },
+                    "move2":{
+                        "name":"Attack Plan",
+                        "physical": 0,
+                        "special": 0,
+                        "effect": {
+                            "atk": 1,
+                            "spe": 1,
+                            "spatk": 1,
+                            "def": -1,
+                            "spdef": -1
+                        }
+                    },
+                    "move3":{
+                        "name":"Power Kick",
+                        "physical": 85,
+                        "special": 0,
+                        "effect":{
+                            "spe": -2
+                        }
+                    }
+                },
+                "description": "Eric likes to display his smarts to all around him. He often shows off his accomplishments.",
+                "picture": ""
+                },
+                {
+                    "name": "Spencer",
+                    "ability": "PB Paws",
+                    "abildesc":"Lowers users speed every turn.",
+                    "stats": {
+                        "speed": 80,
+                        "luck": 57,
+                        "attack": 145,
+                        "special_attack": 100,
+                        "defence": 206,
+                        "special_defence": 206,
+                        "hp": 206
+                    },
+                    "moves":{
+                        "move1":{
+                            "name":"PB Punch",
+                            "physical": 55,
+                            "special": 0,
+                            "effect": {
+                                "spe": 1
+                            }
+                        },
+                        "move2":{
+                            "name":"PB expansion",
+                            "physical": 0,
+                            "special": 0,
+                            "effect": {
+                                "inverse": true
+                            }
+                        },
+                        "move3":{
+                            "name":"Hammock Slingshot",
+                            "physical": 0,
+                            "special": 85,
+                            "effect": "none"
+                        }
+                    },
+                    "description": "Spencer is rarely seen out in the wild. He generally stays in his peanut butter cave for decades, testing and ranking different peanut butter brands. He is the worlds only true hero.",
+                    "picture": ""
+                    },
+                    {
+                        "name": "Minh",
+                        "ability": "Lightweight",
+                        "abildesc":"If Drawn insticts is used the user receives a power up.",
+                        "stats": {
+                            "speed": 30,
+                            "luck": 200,
+                            "attack": 70,
+                            "special_attack": 70,
+                            "defence": 70,
+                            "special_defence": 70,
+                            "hp": 290
+                        },
+                        "moves":{
+                            "move1":{
+                                "name":"Drawn Instincts",
+                                "physical": 20,
+                                "special": 0,
+                                "effect": "none"
+                            },
+                            "move2":{
+                                "name":"blitz",
+                                "physical": 40,
+                                "special": 0,
+                                "effect": {
+                                    "priority": 1
+                                }
+                            },
+                            "move3":{
+                                "name":"Confusion",
+                                "physical": 0,
+                                "special": 95,
+                                "effect": "none"
+                            }
+                        },
+                        "description": "Minh adores rice. He has two rice cookers... Thats how much he likes rice.",
+                        "picture": ""
+                        },
+                        {
+                        "name": "Nolan",
+                        "ability": "ACL tear",
+                        "abildesc":"The user's speed is lowered, while their attack is heightened.",
+                        "stats": {
+                            "speed": 70,
+                            "luck": 180,
+                            "attack": 250,
+                            "special_attack": 75,
+                            "defence": 150,
+                            "special_defence": 125,
+                            "hp": 150
+                        },
+                        "moves":{
+                            "move1":{
+                                "name":"Imposter",
+                                "physical": 0,
+                                "special": 0,
+                                "effect": {
+                                    "heal": 30
+                                }
+                            },
+                            "move2":{
+                                "name":"Iron body",
+                                "physical": 40,
+                                "special": 0,
+                                "effect": {
+                                    "def": 2
+                                }
+                            },
+                            "move3":{
+                                "name":"Dad Slap",
+                                "physical": 0,
+                                "special": 75,
+                                "effect": "none"
+                            }
+                        },
+                        "description": "Nolan and Norman are the same person. Nolan insists that his name is Nolan but everyone knows its really Norman. They say every time Norman takes a step he has a 88 percent chance to tear his ACL due to the power behind each step.",
+                        "picture": ""
+                        }
+
+    ]
+}
