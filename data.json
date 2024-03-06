@@ -275,8 +275,8 @@
                             },
                             "move3":{
                                 "name":"Dad Slap",
-                                "physical": 0,
-                                "special": 75,
+                                "physical": 75,
+                                "special": 0,
                                 "effect": "none"
                             }
                         },

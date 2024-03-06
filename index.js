@@ -19,6 +19,21 @@ function generateBars(value) {
     }
     return bars;
   }
+  
+  function getBoxColor(move) {
+    if(move.physical > move.special){
+        color = "#D3494E";
+    }
+    else if(move.physical < move.special){
+        color = "#658CBB";
+    }
+    else{
+        color = "#7BB274";
+    }
+
+    
+    return color;
+  }
 
 function loadCharacters(characters) {
     var mainContainer = document.getElementById("characters");
@@ -36,9 +51,13 @@ function loadCharacters(characters) {
         let special_defense = characters.characters[i].stats.special_defense;
         let hp = characters.characters[i].stats.hp;
 
-        let move1 = characters.characters[i].moves.move1.name;
-        let move2 = characters.characters[i].moves.move2.name;
-        let move3 = characters.characters[i].moves.move3.name;
+        let move1name = characters.characters[i].moves.move1.name;
+        let move2name = characters.characters[i].moves.move2.name;
+        let move3name = characters.characters[i].moves.move3.name;
+
+        let move1 = characters.characters[i].moves.move1;
+        let move2 = characters.characters[i].moves.move2;
+        let move3 = characters.characters[i].moves.move3;
 
         let description = characters.characters[i].description;
         let src = characters.characters[i].picture;
@@ -54,9 +73,22 @@ function loadCharacters(characters) {
             <h5>Ability: ${ability}</h5>
             <p>${abildesc}</p>
             <h5>Moves:</h5>
-            <p>${move1}</p>
-            <p>${move2}</p>
-            <p>${move3}</p> <br>
+        
+
+            <div class="box" style="background-color:${getBoxColor(move1)};">
+                <h6>${move1name}</h6>
+                <p>${move1name}</p>
+            </div>
+
+            <div class="box" style="background-color:${getBoxColor(move2)};">
+                <h6>${move2name}</h6>
+                <p>${move2name}</p>
+            </div>
+
+            <div class="box" style="background-color:${getBoxColor(move3)};">
+                <h6>${move3name}</h6>
+                <p>${move3name}</p>
+            </div><br>
           </div>
         </div>
         <h5>Stats:</h5>
