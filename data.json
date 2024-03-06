@@ -38,7 +38,7 @@
         }
     },
     "description": "Gavin is a true force of nature. With his overwhelming power he can easily destroy trees and other obstacles in his path. Gavin gets stronger in the snow, hearing the roaring drums of each snowflake.",
-    "picture": ""
+    "picture": "./Images/gavin.jpg"
     },
     {
         "name": "Max",
@@ -78,7 +78,7 @@
             }
         },
         "description": "Max is the true interpretation of the supernatural. Some say when he throws up his hands in protest tornados are created from the sheer force of the movement.",
-        "picture": ""
+        "picture": "./Images/max.jpg"
         },
         {
             "name": "Tate",
@@ -117,7 +117,7 @@
                 }
             },
             "description": "Tate remains as equal as possible. He wants to do something while also wants to nothing at the same time.",
-            "picture": ""
+            "picture": "./Images/tate.jpg"
             },
             {
                 "name": "Eric",
@@ -163,7 +163,7 @@
                     }
                 },
                 "description": "Eric likes to display his smarts to all around him. He often shows off his accomplishments.",
-                "picture": ""
+                "picture": "./Images/eric.jpg"
                 },
                 {
                     "name": "Spencer",
@@ -203,7 +203,7 @@
                         }
                     },
                     "description": "Spencer is rarely seen out in the wild. He generally stays in his peanut butter cave for decades, testing and ranking different peanut butter brands. He is the worlds only true hero.",
-                    "picture": ""
+                    "picture": "./Images/spencer.jpg"
                     },
                     {
                         "name": "Minh",
@@ -241,7 +241,7 @@
                             }
                         },
                         "description": "Minh adores rice. He has two rice cookers... Thats how much he likes rice.",
-                        "picture": ""
+                        "picture": "./Images/minh.jpg"
                         },
                         {
                         "name": "Nolan",
@@ -281,7 +281,7 @@
                             }
                         },
                         "description": "Nolan and Norman are the same person. Nolan insists that his name is Nolan but everyone knows its really Norman. They say every time Norman takes a step he has a 88 percent chance to tear his ACL due to the power behind each step.",
-                        "picture": ""
+                        "picture": "./Images/nolan.jpg"
                         }
 
     ]
