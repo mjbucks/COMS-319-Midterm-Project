@@ -16,6 +16,7 @@ h3 {
 h5 {
     font-family:'Gill Sans', monospace;
 }
+
 h6 {
     font-family:'Gill Sans', monospace;
 }
@@ -28,6 +29,13 @@ p {
     height: 100vh;
     overflow-y: auto; 
     background-color: lightgray;
+}
+
+#homepage {
+    height: 100vh;
+    overflow-y: auto; 
+    background-color: lightgray;
+    width: 100%;
 }
 
 #character_center {
