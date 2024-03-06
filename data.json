@@ -1,5 +1,5 @@
 {
-    "charcters": [
+    "characters": [
     {
     "name": "Gavin",
     "ability": "Shiver",
@@ -9,8 +9,8 @@
         "luck": 50,
         "attack": 700,
         "special_attack": 50,
-        "defence": 50,
-        "special_defence": 50,
+        "defense": 50,
+        "special_defense": 50,
         "hp": 50
     },
     "moves":{
@@ -49,8 +49,8 @@
             "luck": 175,
             "attack": 50,
             "special_attack": 230,
-            "defence": 125,
-            "special_defence": 125,
+            "defense": 125,
+            "special_defense": 125,
             "hp": 125
         },
         "moves":{
@@ -89,8 +89,8 @@
                 "luck": 148,
                 "attack": 142,
                 "special_attack": 142,
-                "defence": 142,
-                "special_defence": 142,
+                "defense": 142,
+                "special_defense": 142,
                 "hp": 142
             },
             "moves":{
@@ -128,8 +128,8 @@
                     "luck": 50,
                     "attack": 150,
                     "special_attack": 50,
-                    "defence": 245,
-                    "special_defence": 55,
+                    "defense": 245,
+                    "special_defense": 55,
                     "hp": 150
                 },
                 "moves":{
@@ -174,8 +174,8 @@
                         "luck": 57,
                         "attack": 145,
                         "special_attack": 100,
-                        "defence": 206,
-                        "special_defence": 206,
+                        "defense": 206,
+                        "special_defense": 206,
                         "hp": 206
                     },
                     "moves":{
@@ -214,8 +214,8 @@
                             "luck": 200,
                             "attack": 70,
                             "special_attack": 70,
-                            "defence": 70,
-                            "special_defence": 70,
+                            "defense": 70,
+                            "special_defense": 70,
                             "hp": 290
                         },
                         "moves":{
@@ -252,8 +252,8 @@
                             "luck": 180,
                             "attack": 250,
                             "special_attack": 75,
-                            "defence": 150,
-                            "special_defence": 125,
+                            "defense": 150,
+                            "special_defense": 125,
                             "hp": 150
                         },
                         "moves":{
