@@ -23,6 +23,7 @@ h6 {
 
 p {
     font-family: 'Courier New', monospace;
+    font-size: small;
 }
 
 #characters {
@@ -49,4 +50,8 @@ p {
     width: 30%;
     padding: 10px;
     box-sizing: border-box;
+    height: 45%;
+  }
+  .box p {
+    font-size: smaller;
   }

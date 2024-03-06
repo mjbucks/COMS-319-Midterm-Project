@@ -55,6 +55,10 @@ function loadCharacters(characters) {
         let move2name = characters.characters[i].moves.move2.name;
         let move3name = characters.characters[i].moves.move3.name;
 
+        let move1desc = characters.characters[i].moves.move1.description;
+        let move2desc = characters.characters[i].moves.move2.description;
+        let move3desc = characters.characters[i].moves.move3.description;
+
         let move1 = characters.characters[i].moves.move1;
         let move2 = characters.characters[i].moves.move2;
         let move3 = characters.characters[i].moves.move3;
@@ -77,21 +81,21 @@ function loadCharacters(characters) {
 
             <div class="box" style="background-color:${getBoxColor(move1)};">
                 <h6>${move1name}</h6>
-                <p>${move1name}</p>
+                <p>${move1desc}</p>
             </div>
 
             <div class="box" style="background-color:${getBoxColor(move2)};">
                 <h6>${move2name}</h6>
-                <p>${move2name}</p>
+                <p>${move2desc}</p>
             </div>
 
             <div class="box" style="background-color:${getBoxColor(move3)};">
                 <h6>${move3name}</h6>
-                <p>${move3name}</p>
+                <p>${move3desc}</p>
             </div><br>
           </div>
         </div>
-        <h5>Stats:</h5>
+        <h5 style="padding-top:2%">Stats:</h5>
         <p>Speed:.......... ${generateBars(speed)} ${speed}</p>
         <p>Luck:........... ${generateBars(luck)} ${luck}</p>
         <p>Attack:......... ${generateBars(attack)} ${attack}</p>

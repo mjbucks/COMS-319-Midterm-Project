@@ -18,18 +18,21 @@
             "name":"Snow day",
             "physical": 0,
             "special": 0,
+            "description": "Turns the terrain snowy",
             "effect":{
                 "snow": "true"
             }
         },
         "move2":{
             "name":"Smash",
+            "description": "The user bashes the target.",
             "physical": 100,
             "special": 0,
             "effect": "none"
         },
         "move3":{
             "name":"Bike",
+            "description": "The user doubles their speed.",
             "physical": 0,
             "special": 0,
             "effect":{
@@ -56,12 +59,14 @@
         "moves":{
             "move1":{
                 "name":"Hand Offense",
+                "description": "The user hits the target with powerful shockwaves.",
                 "physical": 0,
                 "special": 70,
                 "effect": "none"
             },
             "move2":{
                 "name":"Cook",
+                "description": "The user doubles their special defense.",
                 "physical": 0,
                 "special": 0,
                 "effect": {
@@ -70,6 +75,7 @@
             },
             "move3":{
                 "name":"Darts",
+                "description": "The user shoots the target. Hits up to 2 times.",
                 "physical": 0,
                 "special": 40,
                 "effect":{
@@ -96,6 +102,7 @@
             "moves":{
                 "move1":{
                     "name":"Creation",
+                    "description": "The user creates barriers increasing their defense and special defence.",
                     "physical": 0,
                     "special": 0,
                     "effect": {
@@ -105,12 +112,14 @@
                 },
                 "move2":{
                     "name":"Break Neck",
+                    "description": "The user slams the target.",
                     "physical": 80,
                     "special": 0,
                     "effect": "none"
                 },
                 "move3":{
                     "name":"Dissent",
+                    "description": "The user verbally berates the target.",
                     "physical": 0,
                     "special": 80,
                     "effect":"none"
@@ -135,6 +144,7 @@
                 "moves":{
                     "move1":{
                         "name":"Protein Punch",
+                        "description": "The user strikes the target and boosts their attack.",
                         "physical": 55,
                         "special": 0,
                         "effect": {
@@ -143,6 +153,7 @@
                     },
                     "move2":{
                         "name":"Attack Plan",
+                        "description": "The user sits down to plan an attack. This will increase all offensive stats but decrease defensive stats.",
                         "physical": 0,
                         "special": 0,
                         "effect": {
@@ -155,6 +166,7 @@
                     },
                     "move3":{
                         "name":"Power Kick",
+                        "description": "The user kicks the target so hard it breaks their leg, resulting in losing half their speed.",
                         "physical": 85,
                         "special": 0,
                         "effect":{
@@ -167,7 +179,7 @@
                 },
                 {
                     "name": "Spencer",
-                    "ability": "PB Paws",
+                    "ability": "Peanut Butter Paws",
                     "abildesc":"Lowers users speed every turn.",
                     "stats": {
                         "speed": 80,
@@ -180,7 +192,8 @@
                     },
                     "moves":{
                         "move1":{
-                            "name":"PB Punch",
+                            "name":"Peanut Butter Punch",
+                            "description": "The user puncheses the target. Covering them in Peanut Butter, making the user faster.",
                             "physical": 55,
                             "special": 0,
                             "effect": {
@@ -188,7 +201,8 @@
                             }
                         },
                         "move2":{
-                            "name":"PB expansion",
+                            "name":"Peanut Butter expansion",
+                            "description": "Covers the terrain in peanut butter. Inversing the speed.",
                             "physical": 0,
                             "special": 0,
                             "effect": {
@@ -196,7 +210,8 @@
                             }
                         },
                         "move3":{
-                            "name":"Hammock Slingshot",
+                            "name":"Hammock slingshot",
+                            "description": "The user launches a jar of peanut butter that impacts the target at a high speed.",
                             "physical": 0,
                             "special": 85,
                             "effect": "none"
@@ -221,12 +236,14 @@
                         "moves":{
                             "move1":{
                                 "name":"Drawn Instincts",
+                                "description": "The user draws the target in a mean regard. This makes the user power up from their awesome drawing.",
                                 "physical": 20,
                                 "special": 0,
                                 "effect": "none"
                             },
                             "move2":{
                                 "name":"blitz",
+                                "description": "The user hits the target at lightning speed. Usually goes first.",
                                 "physical": 40,
                                 "special": 0,
                                 "effect": {
@@ -235,6 +252,7 @@
                             },
                             "move3":{
                                 "name":"Confusion",
+                                "description": "The user spits jibberish at the target, leaving them confuddled.",
                                 "physical": 0,
                                 "special": 95,
                                 "effect": "none"
@@ -259,6 +277,7 @@
                         "moves":{
                             "move1":{
                                 "name":"Imposter",
+                                "description": "The user heals themself.",
                                 "physical": 0,
                                 "special": 0,
                                 "effect": {
@@ -267,6 +286,7 @@
                             },
                             "move2":{
                                 "name":"Iron body",
+                                "description": "The user bashes the target while increasing their defense.",
                                 "physical": 40,
                                 "special": 0,
                                 "effect": {
@@ -275,6 +295,7 @@
                             },
                             "move3":{
                                 "name":"Dad Slap",
+                                "description": "The user slaps the target with the might of 1000 fathers.",
                                 "physical": 75,
                                 "special": 0,
                                 "effect": "none"
