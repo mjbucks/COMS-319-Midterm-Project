@@ -66,7 +66,10 @@ function loadCharacters(characters) {
         let description = characters.characters[i].description;
         let src = characters.characters[i].picture;
 
+        let characterId = name.toLowerCase().replace(/\s/g, '_');
+
         let div = document.createElement("div");
+        div.id = characterId;
         div.innerHTML = `
         <h3 id="character_center">${name}</h3>
         <div style="display: flex;">
