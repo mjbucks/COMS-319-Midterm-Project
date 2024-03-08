@@ -63,3 +63,14 @@ p {
   .box p {
     font-size: smaller;
   }
+  .boxHome {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 55%;
+  }
+  .homeimg {
+    width: 325px;
+    height: 325px;
+}
