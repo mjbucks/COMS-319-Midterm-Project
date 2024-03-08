@@ -3,7 +3,7 @@
     {
     "name": "Gavin",
     "ability": "Shiver",
-    "abildesc":"Powers up the users attack in the snow.",
+    "abildesc":"Powers up the users attack while snow terrain is active.",
     "stats": {
         "speed": 50,
         "luck": 50,
@@ -15,10 +15,10 @@
     },
     "moves":{
         "move1":{
-            "name":"Snow day",
+            "name":"Snow Day",
             "physical": 0,
             "special": 0,
-            "description": "Turns the terrain snowy",
+            "description": "Turns the terrain to snow",
             "effect":{
                 "snow": "true"
             }
@@ -32,7 +32,7 @@
         },
         "move3":{
             "name":"Bike",
-            "description": "The user doubles their speed.",
+            "description": "The user doubles their current speed stat.",
             "physical": 0,
             "special": 0,
             "effect":{
@@ -66,7 +66,7 @@
             },
             "move2":{
                 "name":"Cook",
-                "description": "The user doubles their special defense.",
+                "description": "The user doubles their current special defense.",
                 "physical": 0,
                 "special": 0,
                 "effect": {
@@ -89,7 +89,7 @@
         {
             "name": "Tate",
             "ability": "LAYD",
-            "abildesc":"Heals user some when intaking physical damage.",
+            "abildesc":"Gains health from attacker when intaking physical damage.",
             "stats": {
                 "speed": 142,
                 "luck": 148,
@@ -102,7 +102,7 @@
             "moves":{
                 "move1":{
                     "name":"Creation",
-                    "description": "The user creates barriers increasing their defense and special defence.",
+                    "description": "The user creates barriers increasing their defense and special defense.",
                     "physical": 0,
                     "special": 0,
                     "effect": {
@@ -193,7 +193,7 @@
                     "moves":{
                         "move1":{
                             "name":"Peanut Butter Punch",
-                            "description": "The user puncheses the target. Covering them in Peanut Butter, making the user faster.",
+                            "description": "The user punches the target. Covering them in Peanut Butter, making the user faster.",
                             "physical": 55,
                             "special": 0,
                             "effect": {
@@ -217,7 +217,7 @@
                             "effect": "none"
                         }
                     },
-                    "description": "Spencer is rarely seen out in the wild. He generally stays in his peanut butter cave for decades, testing and ranking different peanut butter brands. He is the worlds only true hero.",
+                    "description": "Spencer is rarely seen out in the wild. He generally stays in his peanut butter cave for decades, testing and ranking different peanut butter brands. He is the world's only true hero.",
                     "picture": "./Images/spencer.jpg"
                     },
                     {
@@ -258,7 +258,7 @@
                                 "effect": "none"
                             }
                         },
-                        "description": "Minh adores rice. He has two rice cookers... Thats how much he likes rice.",
+                        "description": "Minh adores rice. He has two rice cookers... That's how much he likes rice.",
                         "picture": "./Images/minh.jpg"
                         },
                         {
