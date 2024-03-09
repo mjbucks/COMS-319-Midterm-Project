@@ -18,7 +18,7 @@
             "name":"Snow Day",
             "physical": 0,
             "special": 0,
-            "description": "Turns the terrain to snow",
+            "description": "Turns the terrain to snow.",
             "effect":{
                 "snow": "true"
             }
@@ -242,7 +242,7 @@
                                 "effect": "none"
                             },
                             "move2":{
-                                "name":"blitz",
+                                "name":"Blitz",
                                 "description": "The user hits the target at lightning speed. Usually goes first.",
                                 "physical": 40,
                                 "special": 0,
